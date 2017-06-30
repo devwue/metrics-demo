@@ -1,0 +1,15 @@
+metrics:
+  reporter:
+    graphite:
+      enabled: true
+      port: 2003
+      period: 20
+      prefix: "com.rprakashg.sb.samples"
+      hostname: "graphite"
+
+spring:
+  application:
+    name: stock-quote-service
+
+server:
+  port: 8090
